@@ -6,9 +6,9 @@ import "./Ownable.sol";
 contract Ya is ERC20, Ownable {
     using SafeMath for uint256;
 
-    string name = "Lawtest Token #1";
-    string symbol ="LT1";
-    uint256 decimals = 0;
+    string public name = "Lawtest Token #1";
+    string public symbol ="LT1";
+    uint256 public decimals = 0;
 
     uint256 initialSupply = 40000;
     uint256 saleBeginTime = 1539561600;
