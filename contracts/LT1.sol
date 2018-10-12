@@ -11,8 +11,8 @@ contract Ya is ERC20, Ownable {
     uint256 public decimals = 0;
 
     uint256 initialSupply = 40000;
-    uint256 saleBeginTime = 1539561600;
-    uint256 saleEndTime = 1540857600;
+    uint256 saleBeginTime = 1540598400;
+    uint256 saleEndTime = 1542326400;
     uint256 tokensDestructTime = 1667088000;
     mapping (address => uint256) private _balances;
     uint256 private _totalSupply;
