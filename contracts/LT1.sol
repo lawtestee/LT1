@@ -3,7 +3,7 @@ import "./ERC20.sol";
 import "./SafeMath.sol";
 import "./Ownable.sol";
 
-contract Ya is ERC20, Ownable {
+contract LT1 is ERC20, Ownable {
     using SafeMath for uint256;
 
     string public name = "Lawtest Token #1";
